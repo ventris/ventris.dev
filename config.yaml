@@ -1,0 +1,45 @@
+baseurl: 'https://ventris.github.io'
+languageCode: en-us
+title: ventris
+googleAnalytics: ""
+disqusShortname: ""
+preserveTaxonomyNames: true
+footnotereturnlinkcontents: ↩
+disableHugoGeneratorInject: true
+pluralizeListTitles: false
+pygmentsCodeFences: false
+pygmentsUseClasses: false
+minify: false
+paginate: 9999
+disableKinds:
+  - section
+  - categories
+  #- tags
+
+permalinks:
+  writing: /:year/:month/:day/:slug/
+
+params:
+  description: "hello there"
+
+frontmatter:
+  author: ventris
+  github: 'https://github.com/ventris'
+  og_image: 
+  sitename: ventris
+  twitter: '@ventrisimo'
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+outputFormats:
+  RSS:
+    mediatype: application/rss
+    baseName: atom
+  JSON:
+    mediatype: application/json
+    baseName: feed
+
+
