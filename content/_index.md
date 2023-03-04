@@ -2,11 +2,8 @@
 title: Home
 ---
 
+Braindump of my journeys inside the shell and from behind the lens.
 
-Contact me:  
-<i class="fa-xl fa-brands fa-github"></i>  @ventris 
-<i class="fa-xl fa-brands fa-instagram"></i> @ventrisimo 
-<i class="fa-xl fa-brands fa-telegram"></i>  @ventrisimo 
-<i class="fa-xl fa-brands fa-twitter"></i>  @ventrisimo 
-<i class="fa-xl fa-solid fa-envelope"></i>  ss@tinbox.nu
->>>>>>> Stashed changes
+[twitter](https://twitter.com/ventrisimo) - [github](https://twitter.com/ventris) - [ss@tinbox.nu](ss@tinbox.nu)
+
+PGP Fingerprint: FABE B0CD 8DE0 0CCC 13DA  757F 4B29 2DDE 971F 2ECF
