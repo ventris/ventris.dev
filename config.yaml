@@ -1,7 +1,8 @@
 baseURL: https://ventris.github.io/ventris.dev/
 languageCode: en-us
 title: Hugo
-theme: hugo-theme-mini
+theme: 
+   - github.com/nodejh/hugo-theme-mini
 
 defaultContentLanguage: en
 
