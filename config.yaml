@@ -1,15 +1,15 @@
 baseurl: 'https://ventris.dev'
 languageCode: en-us
-title: ventris
+title: "Braindump of ventris"
 googleAnalytics: ""
 disqusShortname: ""
 preserveTaxonomyNames: true
 footnotereturnlinkcontents: ↩
 disableHugoGeneratorInject: true
 pluralizeListTitles: false
-pygmentsCodeFences: false
+pygmentsCodeFences: true
 pygmentsUseClasses: false
-minify: false
+minify: true
 paginate: 9999
 disableKinds:
   - section
@@ -24,10 +24,10 @@ params:
 
 frontmatter:
   author: ventris
-  github: 'https://github.com/ventris'
+  github: ''
   og_image: 
   sitename: ventris
-  twitter: '@ventrisimo'
+  twitter: ''
 
 sitemap:
   changefreq: monthly
