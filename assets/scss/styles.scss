@@ -4,14 +4,14 @@ body {
   padding: 2rem;
   max-width: 90ch;
   margin: 0 auto;
-  background: #1A1722;
-  color: #EBE6DD;
+  background: #12161C;
+  color: #F2F1F3;
 }
 h1,h2,h3,h4,h5{
-  font-weight: inherit;
   text-decoration: underline;
 }
 header h1 {
+  font-size: inherit;
   display: inline;
 }
 pre, code {
@@ -56,5 +56,5 @@ img {
   max-width: 100%;
 }
 a, a:visited {
-  color: #7D3158;
+  color: #F2F1F3;
 }
