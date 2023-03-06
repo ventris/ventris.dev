@@ -1,5 +1,4 @@
 ---
-author: "Sebastian Svensson"
 title: "Kafka without Zookeeper"
 date: "2023-03-06"
 description: "Installing Kafka with kRaft and SSL"
@@ -7,9 +6,10 @@ tags: [
     "kafka",
     "kraft",
 ]
+draft: false
+url: /archive/examplepost
+type: blog
 ---
-
-[kafka](/assets/images/kafka.png)
 
 For the last couple of days I have been experimenting with Kafka without Zookeeper. Below is the installation braindump that I have been using to get a fully functional multinode cluster using kRaft.
 The biggest hurdle as always with java applications is working with the keystores to get everything correct.
