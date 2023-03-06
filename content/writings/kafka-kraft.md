@@ -1,9 +1,9 @@
 ---
-author = "Sebastian Svensson"
-title = "Kafka without Zookeeper"
-date = "2023-03-06"
-description = "Installing Kafka with kRaft and SSL"
-tags = [
+author: "Sebastian Svensson"
+title: "Kafka without Zookeeper"
+date: "2023-03-06"
+description: "Installing Kafka with kRaft and SSL"
+tags: [
     "kafka",
     "kraft",
 ]
