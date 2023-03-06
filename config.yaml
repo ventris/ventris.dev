@@ -1,45 +1,80 @@
-baseurl: 'https://ventris.dev'
-languageCode: en-us
-title: "ventris"
-googleAnalytics: ""
-disqusShortname: ""
-preserveTaxonomyNames: true
-footnotereturnlinkcontents: ↩
-disableHugoGeneratorInject: true
-pluralizeListTitles: false
-pygmentsCodeFences: true
-pygmentsUseClasses: false
-minify: true
-paginate: 9999
-disableKinds:
-  - section
-  - categories
-  #- tags
+baseURL = "https://ventris.dev"
+languageCode = "en-us"
+title = "ventris"
+#theme = "huey"
+canonifyurls = true
 
-permalinks:
-  writing: /:year/:month/:day/:slug/
+[params]
+  # General site metadata, used in header and other places
+  author = "Sebastian Svensson"
+  dateFormat = "January 2, 2006"
+  description = "Braindump of my internet journeys and stories from behind the lens."
+  keywords = ""
+  email = "ss@tinbox.nu"
 
-params:
-  description: "hello there"
+  # Use your Font Awesome token here. Example token is fake, so please get your own.
+  fontawesomeToken = "018de52a07"
 
-frontmatter:
-  author: ventris
-  github: ''
-  og_image: 
-  sitename: ventris
-  twitter: ''
+  # Use content from _index.md on homepage
+  # useIndexContent = true # default is false
 
-sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-  priority: 0.5
+  # Navigation, use Bulma options here
+  # navbarStyle = "is-transparent" # Default is "is-transparent"
+  # navbarTitleStyle = "has-text-black" # Default is "has-text-black"
 
-outputFormats:
-  RSS:
-    mediatype: application/rss
-    baseName: atom
-  JSON:
-    mediatype: application/json
-    baseName: feed
+  # # Override Bulma schemes with values
+  # schemeMain = "" # Change background color, default is white
+  # link = "#000" # Bulma default is blue, though theme is black
+  # linkHover = "#888" # Bulma default is grey-darker, though theme is #888
+  # footerBackgroundColor = "false" # Bulma default is #fafafa. You can use "false" or #hex
+  # navbarItemHoverColor = "#444" # Bulma default is blue, though theme is #444
+  # navbarItemColor = "#888" # Bulma default is grey-dark, though theme is #888
+
+  # Set static directory locations and favicon
+  favicon = "favicon.ico"
+  staticDir = ['static']
 
 
+[menu]
+
+# Top Navigation
+[[menu.nav]]
+  identifier = 'home'
+  name = 'Home'
+  title = 'Home'
+  url = '/'
+  weight = 10
+
+[[menu.nav]]
+  identifier = 'archive'
+  name = 'Archive'
+  title = "Archive"
+  url = '/archive/'
+  weight = 20
+
+# Contacts
+
+[[ menu.social]]
+  identifier = 'linkedin'
+  name = 'LinkedIn'
+  pre = "<i class='fab fa-linkedin fa-lg'></i>"
+  url = "https://linkedin.com/in/yourlinkedinprofile"
+  weight = 10
+
+[[ menu.social]]
+  identifier = 'github'
+  name = 'Github'
+  pre = "<i class='fab fa-github fa-lg'></i>"
+  url = "https://github.com/ventris"
+  weight = 20
+
+[[ menu.social]]
+  identifier = 'twitter'
+  name = 'Twitter'
+  pre = "<i class='fab fa-twitter fa-lg'></i>"
+  url = "https://twitter.com/ventrisimo"
+  weight = 30
+
+[outputs]
+  home = ['HTML', 'RSS']
+  pages = ['HTML']
