@@ -13,7 +13,7 @@ canonifyurls = true
   email = "ss@tinbox.nu"
 
   # Use your Font Awesome token here. Example token is fake, so please get your own.
-  fontawesomeToken = "018de52a07"
+  fontawesomeToken = "58cefba442"
 
   # Use content from _index.md on homepage
   # useIndexContent = true # default is false
@@ -50,6 +50,13 @@ canonifyurls = true
   name = 'Archive'
   title = "Archive"
   url = '/archive/'
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'about'
+  name = 'About'
+  title = "About"
+  url = '/about/'
   weight = 20
 
 # Contacts
