@@ -1,12 +1,13 @@
 body {
-  font: 17px/1.6 sans-serif;
+  font: 14px/1.6 monaco;
   text-rendering: optimizeLegibility;
   padding: 2rem;
-  max-width: 80ch;
+  max-width: 90ch;
   margin: 0 auto;
+  background: #1A1722;
+  color: #EBE6DD;
 }
 h1,h2,h3,h4,h5{
-  font-size: inherit;
   font-weight: inherit;
   text-decoration: underline;
 }
@@ -55,5 +56,5 @@ img {
   max-width: 100%;
 }
 a, a:visited {
-  color: initial;
+  color: #7D3158;
 }
