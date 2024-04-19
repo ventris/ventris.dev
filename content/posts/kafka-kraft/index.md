@@ -6,7 +6,7 @@ tags: [
     "kafka",
     "kraft",
 ]
-draft: false
+draft: true
 url: /archive/examplepost
 type: blog
 ---
