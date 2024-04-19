@@ -1,7 +1,6 @@
 ---
 title: "About"
 draft: false
-layout: page
 fa_icon: "fas fa-user"
 ---
 
