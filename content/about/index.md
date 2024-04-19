@@ -2,8 +2,6 @@
 title: "About"
 date: 2023-03-07
 draft: false
-url: /about/
-type: pages
 layout: page
 fa_icon: "fas fa-user"
 menu: nav
