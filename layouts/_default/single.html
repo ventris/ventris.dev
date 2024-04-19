@@ -14,7 +14,9 @@
       <div class="column">
         <div class="content">
           <h1 class="title is-3">{{.Page.Title | title }}</h1>
+          {{ if .Params.showthedate }}
           <h2 class="subtitle is-5"><time>{{ .Date.Format "January 2, 2006" }}</time></h2>
+          {{ end }}
           <p class="subtitle is-4">{{.Page.Description}}</p>
           {{ .Content }}
         </div>
